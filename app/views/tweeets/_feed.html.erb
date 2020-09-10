@@ -17,20 +17,23 @@
             </div>
             <div class='media-content'>
                 <div class='content'>
-                    <strong>Alex Zambrano</strong><br>
-                    <small>@sadfsd</small><br>
+                    <div class='rows'>
+                        <strong>Alex Zambrano</strong><br>
+                        <small class='has-text-grey-light'>@sadfsd</small><br>
+                        <small class='has-text-grey-light'><%= tweeet.created_at  %></small><br>
+                    </div>    
                     <p><%= tweeet.tweeet %></p>
                 </div>
                 <nav class='level'>
                     <div class="level-left is-mobile">
                         <%= link_to tweeet, class: "level-item" do %>
-                            <span class="icon"><i class="fa fa-link" aria-hidden="true"></i></span>
+                            <span class="icon"><i class="fa fa-link has-text-grey" aria-hidden="true"></i></span>
                         <% end %>
                         <%= link_to edit_tweeet_path(tweeet), class: "level-item" do %>
-                            <span class="icon"><i class="fa fa-pencil" aria-hidden="true"></i></span>
+                            <span class="icon"><i class="fa fa-pencil has-text-grey" aria-hidden="true"></i></span>
                         <% end %>
                         <%= link_to tweeet, method: :delete, data: { confirm: "Are you sure you want to delete this tweeet?" } do %>
-                            <span class="icon"><i class="fa fa-trash-o" aria-hidden="true"></i></span>
+                            <span class="icon"><i class="fa fa-trash-o has-text-grey" aria-hidden="true"></i></span>
                         <% end %>
                     </div>
                 </nav>
