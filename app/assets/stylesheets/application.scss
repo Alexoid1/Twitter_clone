@@ -149,3 +149,30 @@ body{
  .box:hover {
 	background:rgb(241, 241, 241);
  }
+
+ .logT {
+	 padding-top: 70px;
+ }
+
+ .form-width {
+	 width:500px;
+ }
+ .form-input {
+	 background: rgb(241, 241, 241);
+	 border-bottom:2px solid rgba(109, 142, 144, 0.76);
+	 width:100%
+
+ }
+
+ .form-input input {
+	 border: none;
+	 outline: none;
+	 height: 21px;
+	 width:100%;
+	 background: none;
+ }
+
+ .form-input input:focus{
+	border-bottom:2px solid rgb(29, 161, 242);;
+
+ }
