@@ -16,6 +16,9 @@
 
 @import "bulma";
 
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
 .navbar-brand .title {
 	color: white;
 }
@@ -28,3 +31,92 @@
 .notification:not(:last-child) {
 	margin-bottom: 0;
 }
+.section {
+	padding:0px;
+	margin:0px;
+}
+
+.container {
+	padding:0px;
+	max-width:1600px;
+	
+	
+}
+.columns {
+	width: 90%;
+	margin: auto;
+}
+.column{
+	margin: 0px;
+}
+
+.panel {
+	border: none;
+	
+}
+.ww {
+	
+	display: block;
+	margin: 16px 0px 16px 0px;
+	height: 50px;
+	border: none;
+
+	
+	box-shadow: 0px;
+	font-size: 22px;
+	font-weight: bolder;
+	
+}
+
+.ww:hover{
+	background:rgba(29, 161, 242,0.3);
+	color:rgb(29, 161, 242);
+}
+
+.despla{
+	max-height: 500px;
+	overflow-y: auto;
+}
+
+.label{
+	display:block;
+	font-size: 20px;
+	color: black;
+	
+}
+
+.foorm{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.text-area{
+	width:450px;
+	height: 50px;
+	border: none;
+	outline: none;
+}
+
+.fix {
+	position: fixed;
+	display:block;
+	height: 100%;
+	border-right: 1px solid grey;
+}
+	
+/*.navblu{
+	
+	
+}
+
+.xx {
+	padding-top: 50px;
+}
+*/
+
+.font-icons i {
+	margin: 10px;
+	color:rgb(29, 161, 242);
+}
+
