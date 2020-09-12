@@ -37,11 +37,24 @@
       <div id="navbarExample" class="navbar-menu">
         <div class="navbar-end">
           <div class='field is-grouped'>
-            <p class='control'>
-              <%= link_to 'New Tweeet', new_tweeet_path , class:'button is-info is-inverted' %>
-              
-            </p>
-            <p class='control'>Sing up</p>
+            
+          <% if user_signed_in? %>
+          <p class="control">
+            <%= link_to  "Edit", edit_user_registration_path, class: "button is-primary" %>
+          </p>
+          <p>
+            <%= link_to "Logout", destroy_user_session_path, method: :delete, class:"button is-primary" %>
+          </p>
+          <% else %>
+          <p class="control">
+            <%= link_to 'Sign In', new_user_session_path, class: "button is-primary" %>
+          </p>
+          <p class="control">
+            <%= link_to 'Sign Up', new_user_registration_path, class: "button is-primary" %>
+          </p>
+          <% end %>
+           
+           
           </div>
         </div>
       </div>   

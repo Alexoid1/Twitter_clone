@@ -43,7 +43,7 @@ body{
 	
 }
 .columns {
-	width: 90%;
+	width: 92%;
 	margin: auto;
 }
 .column{
@@ -57,13 +57,13 @@ body{
 .ww {
 	
 	display: block;
-	margin: 16px 0px 16px 0px;
+	margin: 12px 0px 12px 0px;
 	height: 50px;
 	border: none;
 
 	
 	box-shadow: 0px;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bolder;
 	
 }
@@ -102,8 +102,11 @@ body{
 	position: fixed;
 	display:block;
 	height: 100%;
-	border-right: 1px solid grey;
+	border-right: 1px thin black;
+	
+	
 }
+
 	
 .navblu{
 	
@@ -176,3 +179,40 @@ body{
 	border-bottom:2px solid rgb(29, 161, 242);;
 
  }
+
+ .searchBar{
+	 background: rgb(230,236,240);
+	 color:#788896;
+	 height: 50px;
+	 width: 100%;
+	 border-radius:25px;
+	 padding:0 10px;
+	 
+ }
+
+ .searchBar input {
+	 border:none;
+	 outline: none;
+	 background: rgb(230,236,240);
+	 
+ }
+
+ .searchBar label {
+	 line-height: 50px; 
+ }	
+ 
+ .fa-search{
+	color:#788896;
+ }
+
+ .panel-heading {
+	background:rgb(245,248,250);
+	
+ }
+
+ .panel-block {
+	background:rgb(245,248,250);
+	height: 70px;
+	color:#788896;
+ }
+ 
