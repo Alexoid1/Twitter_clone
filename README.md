@@ -21,6 +21,7 @@
 ## Built With
 
 - Ruby on Rails
+- Bulma
 
 
 ### Prerequisites
