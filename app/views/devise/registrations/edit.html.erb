@@ -1,0 +1,50 @@
+<div class='section'>
+  <div class='container'>
+    <div class='columns is-centered form-width'>
+
+      <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+        <%= f.error_notification %>
+
+        <div class='form-width logT'>
+                <span class='is-block has-text-centered'>
+                  <i class="fa fa-twitter has-text-info fa-2x mb-3" aria-hidden="true"></i>
+                </span>
+                <h2 class='has-text-weight-bold has-text-black has-text-centered is-size-4 mb-4' >Start Twwiter Session</h2>
+                <%= f.error_notification %>
+
+                  <div class='form-input'>
+                    <label for='name' class='has-text-grey	ml-3 mt-3 is-size-6'>Name</label><br>
+                    <input type="text" id="name" name="user[username]" required >
+                  </div>  
+                  <div class='form-input'>
+                    <label for='email' class='has-text-grey	ml-3 mt-3 is-size-6'>Email address</label><br>
+                    <input type="email" id="email" name="user[email]" required >
+                  </div>  
+                  
+                  <div class='form-input'>
+                    <label for='password' class='has-text-grey	ml-3 mt-3 is-size-6'>Password</label><br>
+                    <input type="password" id="password" name="user[password]"  required >
+                  </div> 
+                  <div class='form-input'>
+                    <label for='password_c' class='has-text-grey	ml-3 mt-3 is-size-6'>Password Confirmation</label><br>
+                    <input type="password" id="password_c" name="user[password_confirmation]"  required >
+                  </div>   
+                  
+                  
+                
+                  <div class="field">
+                    <div class="control">
+                
+                        <%= f.button :submit, "Update", class:"button is-info is-medium is-fullwidth is-rounded mt-3" %>
+                    </div>  
+                  </div>    
+        </div>  
+      <% end %>
+    </div>
+  </div>
+</div>
+<h3>Cancel my account</h3>
+
+<p>Unhappy? <%= link_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+
+<%= link_to "Back", :back %>

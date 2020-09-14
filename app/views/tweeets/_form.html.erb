@@ -1,0 +1,33 @@
+<%= simple_form_for(@tweeet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+     
+      <label for='twee' class='label'>Start</label>
+      <hr>
+      <div class='foorm'>
+        <figure class="media-left">
+          <p class="image is-64x64">
+              <img src="https://bulma.io/images/placeholders/64x64.png">
+          </p>
+        </figure>
+
+        <input type="textarea" id="twee" name="tweeet[tweeet]" class='text-area' rows=50 cols=200 placeholder='What are you thinking?'>
+        
+      </div>
+      
+      
+    </div>
+  </div>
+  <div class='form-links foorm'>
+    <div class='font-icons'>
+      <i class="fa fa-picture-o fa-lg" aria-hidden="true"></i>
+      <i class="fa fa-gift fa-lg" aria-hidden="true"></i>
+      <i class="fa fa-bar-chart fa-lg" aria-hidden="true"></i>
+      <i class="fa fa-smile-o fa-lg" aria-hidden="true"></i>
+      <i class="fa fa-calendar-check-o fa-lg" aria-hidden="true"></i>
+    </div>
+    <%= f.button :submit, class: "button is-rounded is-info" %>
+  </div>
+  
+<% end %>

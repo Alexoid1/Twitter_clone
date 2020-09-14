@@ -1,0 +1,92 @@
+<div class="column is-4 ml-2 mr-2">
+	<div class='searchBar'>
+		<i class="fa fa-search" aria-hidden="true"></i>
+		<label>Search</label>
+		<input>
+	</div>
+	<nav class='panel'>
+	<p class="panel-heading mt-3">Trends for you</p>
+		<a class="panel-block">	
+			Country Trends<br><br>	
+			Tweets 18m	
+		</a>
+		<a class="panel-block">
+			Country Trends<br><br>					
+			Tweets 18m
+		</a>
+		<a class="panel-block">
+			Country Trends<br><br>					
+			Tweets 18m
+		</a>
+		<a class="panel-block">
+			Country Trends<br><br>					
+			Tweets 18m
+		</a>
+		<a class="panel-block">
+			Country Trends<br><br>					
+			Tweets 18m
+		</a>
+		<a class="panel-block">
+			Country Trends<br><br>					
+			Tweets 18m
+		</a>
+	</nav>
+	
+		<nav class="panel">
+			<p class="panel-heading">Who to Follow</p>
+		</nav>
+		<% @users.each do |user| %>
+		<div class="panel-block">
+			<article class="media">
+				<div class="media-left">
+					<figure class="image is-32x32">
+						<img src="https://bulma.io/images/placeholders/64x64.png">
+					</figure>
+				</div>
+				<div class="media-content">
+					<div class="content">
+						<p>
+							<strong><%= user.name %></strong>
+							<small><%= user.email %></small>
+						</p>
+					</div>
+				</div>
+			</article>
+		</div>
+		<% end %>	
+		<div class="panel-block">
+			<article class="media">
+				<div class="media-left">
+					<figure class="image is-32x32">
+						<img src="https://bulma.io/images/placeholders/64x64.png">
+					</figure>
+				</div>
+				<div class="media-content">
+					<div class="content">
+						<p>
+							<strong>John Smith</strong>
+							<small>@johnsmith</small>
+						</p>
+					</div>
+				</div>
+			</article>
+		</div>
+		<div class="panel-block">
+			<article class="media">
+				<div class="media-left">
+					<figure class="image is-32x32">
+						<img src="https://bulma.io/images/placeholders/64x64.png">
+					</figure>
+				</div>
+				<div class="media-content">
+					<div class="content">
+						<p>
+							<strong>John Smith</strong>
+							<small>@johnsmith</small>
+						</p>
+					</div>
+				</div>
+			</article>
+		</div>
+	
+</div>
