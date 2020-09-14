@@ -1,4 +1,5 @@
 
+
 # Twitter Clone 🚀 
 
 > This is a clone of the Twitter web site. 
@@ -11,9 +12,8 @@
 - Go to (https://github.com/Alexoid1/Twitter_clone) and have a look around.
 - Open your Terminal.
 - Clone repo
-- Go to the project's root
 - write (bundle install)
-- Migrate (rake db:migrate)
+- Go to the project's root
 - Start server (rails server).
 
 
@@ -21,7 +21,6 @@
 ## Built With
 
 - Ruby on Rails
-- Bulma
 
 
 ### Prerequisites
@@ -35,7 +34,7 @@
 ## Credit
 
 - Odin project (https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication?ref=lnav);
-
+- Web Crunch (https://www.youtube.com/channel/UCzePijHDYnVHIXW6HYTL4dg)
 
 ## Authors
 
