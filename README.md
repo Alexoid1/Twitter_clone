@@ -35,7 +35,7 @@
 ## Credit
 
 - Odin project (https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication?ref=lnav);
-- Web Crunch (https://www.youtube.com/channel/UCzePijHDYnVHIXW6HYTL4dg)
+
 
 ## Authors
 
