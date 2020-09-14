@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# Twitter_clone
-=======
+
 # Twitter Clone 🚀 
 
 > This is a clone of the Twitter web site. 
@@ -60,4 +58,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project has no license.
->>>>>>> develop
+
