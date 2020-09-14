@@ -11,8 +11,9 @@
 - Go to (https://github.com/Alexoid1/Twitter_clone) and have a look around.
 - Open your Terminal.
 - Clone repo
-- write (bundle install)
 - Go to the project's root
+- write (bundle install)
+- Migrate (rake db:migrate)
 - Start server (rails server).
 
 
